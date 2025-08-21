@@ -24,7 +24,7 @@ public class TradingService {
     }
 
     public OrderDetails placeOrder(CreateOrderRequest request) {
-        String url = "https://api.quidax.com/api/v1/users/me/orders";
+        String url = "https://app.quidax.io/api/v1/users/me/orders";
 
         // Create the authentication headers
         HttpHeaders headers = new HttpHeaders();
